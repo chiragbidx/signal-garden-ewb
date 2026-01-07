@@ -37,8 +37,25 @@ ul.list-unstyled li i.bi {
   padding: 0.1em 0.2em;
 }
 
+/* Project Section Styles */
+#projects .card.project-card {
+  transition: transform 0.13s;
+  border: none;
+}
+#projects .card.project-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(33, 106, 219, 0.13);
+}
+#projects .card-img-top {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
 @media (max-width: 991.98px) {
   section#contact form {
     margin-top: 2rem;
+  }
+  #projects .card-img-top {
+    height: 160px !important;
   }
 }
