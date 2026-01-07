@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Bubble Development Agency – Launch Your No-Code App</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -11,52 +11,150 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     >
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand fw-bold" href="#">BubbleExperts</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#how-it-works">How it works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <a href="#contact" class="btn btn-primary">Get a Quote</a>
         </div>
       </div>
     </nav>
 
-    <div class="container my-5">
-      <h1>Hello, world!</h1>
-      <div class="col-lg-8 px-0">
-        <p class="fs-5">
-          You've successfully loaded up the Bootstrap starter example.
-        </p>
-        <p>Feel free to download or copy-and-paste any parts of this example.</p>
-
-        <hr class="col-1 my-4">
-
-        <a href="https://getbootstrap.com" class="btn btn-primary">Read the Bootstrap docs</a>
-        <a href="https://github.com/twbs/examples" class="btn btn-secondary">View on GitHub</a>
+    <header class="py-5 bg-light border-bottom">
+      <div class="container text-center">
+        <h1 class="display-4 fw-bold">Build Your App. Fast. With Bubble.</h1>
+        <p class="lead mt-3">Launch your SaaS, marketplace, or MVP in weeks—not months. We're a dedicated Bubble agency building custom apps for startups & entrepreneurs.</p>
+        <a href="#contact" class="btn btn-lg btn-primary px-4 mt-3">Schedule Your Free Consultation</a>
       </div>
-    </div>
+    </header>
+
+    <section id="services" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Bubble Development Services</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow">
+              <div class="card-body text-center">
+                <div class="mb-3"><span class="bg-primary text-white rounded-circle p-3 fs-3"><i class="bi bi-layers"></i></span></div>
+                <h5 class="card-title">Custom App Development</h5>
+                <p class="card-text">From SaaS to marketplaces, we design and build robust Bubble apps to your unique requirements.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow">
+              <div class="card-body text-center">
+                <div class="mb-3"><span class="bg-success text-white rounded-circle p-3 fs-3"><i class="bi bi-plug"></i></span></div>
+                <h5 class="card-title">API & Integrations</h5>
+                <p class="card-text">Seamlessly connect your Bubble app to third-party services, APIs, and plugins for maximum scalability.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow">
+              <div class="card-body text-center">
+                <div class="mb-3"><span class="bg-warning text-white rounded-circle p-3 fs-3"><i class="bi bi-emoji-smile"></i></span></div>
+                <h5 class="card-title">Support & Optimization</h5>
+                <p class="card-text">Ongoing support, performance tuning, and feature enhancements for live Bubble apps.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">How It Works</h2>
+        <div class="row g-5 align-items-center">
+          <div class="col-md-4 text-center">
+            <div class="mb-2 fs-1 text-primary">1</div>
+            <h5>Discovery Call</h5>
+            <p>We discuss your vision, pain points, and ideal outcomes over a quick call.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="mb-2 fs-1 text-primary">2</div>
+            <h5>Prototyping & Build</h5>
+            <p>Our team designs wireframes, then builds, iterates, and tests your custom Bubble app.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="mb-2 fs-1 text-primary">3</div>
+            <h5>Launch & Support</h5>
+            <p>We launch your app, provide documentation, and support your ongoing growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">What Our Clients Say</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-5 mb-3">
+            <div class="p-4 bg-white border rounded shadow-sm h-100">
+              <p class="mb-2">“We launched our MVP in just 4 weeks. BubbleExperts managed everything and delivered beyond expectations.”</p>
+              <div class="mt-2 text-end">
+                <strong>- Sam P., SaaS Founder</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mb-3">
+            <div class="p-4 bg-white border rounded shadow-sm h-100">
+              <p class="mb-2">“Their team handled every integration we needed, all inside Bubble. Highly recommend!”</p>
+              <div class="mt-2 text-end">
+                <strong>- Linda F., Startup CEO</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <h2 class="mb-3">Ready to Build Your Bubble App?</h2>
+            <p class="mb-4">Submit your details or book a strategy session—let's turn your idea into a working product, fast!</p>
+            <ul class="list-unstyled fs-5">
+              <li><i class="bi bi-check-circle me-2"></i>Zero code required</li>
+              <li><i class="bi bi-check-circle me-2"></i>End-to-end delivery</li>
+              <li><i class="bi bi-check-circle me-2"></i>Flat-rate pricing</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <form class="bg-white rounded p-4 text-dark shadow" autocomplete="off">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name*</label>
+                <input type="text" class="form-control" id="name" name="name" required autocomplete="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email*</label>
+                <input type="email" class="form-control" id="email" name="email" required autocomplete="email">
+              </div>
+              <div class="mb-3">
+                <label for="project" class="form-label">Tell us about your project</label>
+                <textarea class="form-control" id="project" name="project" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Request a Consultation</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <!--
   PANDA IMAGE SELECTION SCRIPT v1
@@ -75,6 +173,8 @@
 -->
 <script src="https://bfwqdadlcyndtaqmqtci.supabase.co/storage/v1/object/public/pandajs/panda-branding.js" defer></script>
 
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
